@@ -1,0 +1,24 @@
+# PyTorch with CUDA is installed separately (see install.bat):
+#   pip install torch==2.6.0+cu124 torchaudio==2.6.0+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+coqui-tts>=0.24.2
+faster-whisper>=1.1.0
+ctranslate2>=4.5.0
+transformers>=4.52,<5
+huggingface_hub>=0.25.0
+sentencepiece
+demucs>=4.0.1
+gradio>=5.40,<6
+librosa
+num2words
+PyYAML
+soundfile
+numpy
+pandas
+munch>=4.0.0
+soxr
+yt-dlp
+pywebview
+# Japanese / Chinese text normalization for XTTS v2
+cutlet
+unidic-lite
+pypinyin
